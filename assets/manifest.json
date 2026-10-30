@@ -1,0 +1,59 @@
+{
+  "workflow": "ComfyUIMultiShotWorkflowCoffeeExample.json",
+  "input_subdirectory": "coffeeExample",
+  "files": [
+    {
+      "node_id": 1,
+      "filename": "coffeeCharacterReference.png",
+      "role": "Original character identity and wardrobe",
+      "required": true
+    },
+    {
+      "node_id": 6,
+      "filename": "CoffeeDrinkLandscape.mp4",
+      "role": "Original performance video with audio",
+      "required": true
+    },
+    {
+      "node_id": 7,
+      "filename": "coffeCupProp.jpeg",
+      "role": "Original mug design and proportions",
+      "required": true
+    },
+    {
+      "node_id": 10,
+      "filename": "subjectRightView.png",
+      "role": "Environment visible from a right-side camera",
+      "required": true
+    },
+    {
+      "node_id": 14,
+      "filename": "forCoffeeCupShot.png",
+      "role": "Drinking pose and right-hand grip",
+      "required": true
+    },
+    {
+      "node_id": 18,
+      "filename": "subjectForwardView.png",
+      "role": "Environment seen from the subject looking forward",
+      "required": true
+    },
+    {
+      "node_id": 19,
+      "filename": "subjectTopView.png",
+      "role": "Overhead chair, table and floor reference",
+      "required": true
+    },
+    {
+      "node_id": 21,
+      "filename": "forAboveShot.png",
+      "role": "Subject looking up: head tilt and hand pose",
+      "required": true
+    }
+  ],
+  "optional_outputs": [
+    "ComfyRightProfile.png",
+    "ComfyCoffeePOV.png",
+    "ComfyAbovePOv.png"
+  ]
+}
